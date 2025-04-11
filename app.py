@@ -1271,11 +1271,11 @@ os.environ["TORCH_USE_RTLD_GLOBAL"] = "1"
 
 if 'achievements' not in st.session_state:
     st.session_state.achievements = {
-        'first_upload': {'earned': False, 'name': '📸 First Upload!'},
-        'selfie_master': {'earned': False, 'name': '🤳 Selfie Master'},
-        'meme_genius': {'earned': False, 'name': '😂 Meme Genius'},
-        'filter_king': {'earned': False, 'name': '👑 Filter King'},
-        'ai_explorer': {'earned': False, 'name': '🤖 AI Explorer'},
+        'first_upload': {'earned': False, 'name': ' First Upload!'},
+        'selfie_master': {'earned': False, 'name': 'Selfie Master'},
+        'meme_genius': {'earned': False, 'name': 'Meme Genius'},
+        'filter_king': {'earned': False, 'name': 'Filter King'},
+        'ai_explorer': {'earned': False, 'name': 'AI Explorer'},
     }
 
 if 'filter_count' not in st.session_state:
